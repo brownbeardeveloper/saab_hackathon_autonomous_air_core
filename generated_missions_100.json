@@ -1,0 +1,1920 @@
+{
+  "seed": 42,
+  "count": 100,
+  "profile_counts": {
+    "Precision Strike": 35,
+    "Border Patrol": 32,
+    "Recon Sweep": 24,
+    "Anti-Ship Strike": 9
+  },
+  "missions": [
+    {
+      "id": 1,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.82,
+      "fuel_cost": 51.18,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.78,
+      "fuel_cost": 54.34,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.86,
+      "fuel_cost": 31.46,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.24,
+      "fuel_cost": 33.76,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.97,
+      "fuel_cost": 39.97,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 3.39,
+      "fuel_cost": 15.96,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.39,
+      "fuel_cost": 48.47,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.44,
+      "fuel_cost": 33.18,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.08,
+      "fuel_cost": 40.6,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.39,
+      "fuel_cost": 25.25,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 5.4,
+      "fuel_cost": 36.8,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.44,
+      "fuel_cost": 21.22,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 3.19,
+      "fuel_cost": 18.4,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.81,
+      "fuel_cost": 50.48,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.44,
+      "fuel_cost": 50.47,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.66,
+      "fuel_cost": 35.78,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.92,
+      "fuel_cost": 33.4,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 3.97,
+      "fuel_cost": 24.97,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.84,
+      "fuel_cost": 40.39,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.78,
+      "fuel_cost": 19.95,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.91,
+      "fuel_cost": 43.26,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.4,
+      "fuel_cost": 42.95,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.11,
+      "fuel_cost": 18.52,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.93,
+      "fuel_cost": 24.94,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 4.7,
+      "fuel_cost": 46.75,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.09,
+      "fuel_cost": 29.25,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.07,
+      "fuel_cost": 29.29,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.13,
+      "fuel_cost": 20.84,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.23,
+      "fuel_cost": 25.84,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.82,
+      "fuel_cost": 26.52,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 3.74,
+      "fuel_cost": 21.69,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.1,
+      "fuel_cost": 28.71,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.68,
+      "fuel_cost": 20.01,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 6.73,
+      "fuel_cost": 65.99,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.42,
+      "fuel_cost": 26.68,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.85,
+      "fuel_cost": 35.35,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.26,
+      "fuel_cost": 21.84,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.76,
+      "fuel_cost": 23.69,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.14,
+      "fuel_cost": 26.38,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.8,
+      "fuel_cost": 44.94,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.45,
+      "fuel_cost": 30.28,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.58,
+      "fuel_cost": 26.4,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.79,
+      "fuel_cost": 19.76,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.01,
+      "fuel_cost": 52.98,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.54,
+      "fuel_cost": 43.95,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.4,
+      "fuel_cost": 22.23,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.75,
+      "fuel_cost": 41.14,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.38,
+      "fuel_cost": 27.72,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.03,
+      "fuel_cost": 23.64,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.38,
+      "fuel_cost": 18.37,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 5.19,
+      "fuel_cost": 31.79,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.72,
+      "fuel_cost": 29.43,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.82,
+      "fuel_cost": 30.36,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.82,
+      "fuel_cost": 52.73,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.09,
+      "fuel_cost": 23.32,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.16,
+      "fuel_cost": 31.74,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.41,
+      "fuel_cost": 22.95,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.01,
+      "fuel_cost": 33.91,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.11,
+      "fuel_cost": 21.53,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 6.68,
+      "fuel_cost": 67.46,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 6.68,
+      "fuel_cost": 60.57,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.04,
+      "fuel_cost": 29.25,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.69,
+      "fuel_cost": 30.7,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.34,
+      "fuel_cost": 18.61,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.08,
+      "fuel_cost": 17.3,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 3.5,
+      "fuel_cost": 28.12,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.78,
+      "fuel_cost": 26.66,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 5.5,
+      "fuel_cost": 49.32,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.57,
+      "fuel_cost": 16.98,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.87,
+      "fuel_cost": 41.67,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.24,
+      "fuel_cost": 33.39,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.65,
+      "fuel_cost": 47.95,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.31,
+      "fuel_cost": 28.91,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.1,
+      "fuel_cost": 26.31,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 5.37,
+      "fuel_cost": 35.73,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 4.07,
+      "fuel_cost": 61.66,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.82,
+      "fuel_cost": 31.79,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 3.43,
+      "fuel_cost": 28.13,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 6.41,
+      "fuel_cost": 59.02,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 2.55,
+      "fuel_cost": 30.95,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.89,
+      "fuel_cost": 34.28,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.71,
+      "fuel_cost": 32.75,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.74,
+      "fuel_cost": 38.1,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.8,
+      "fuel_cost": 32.75,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.0,
+      "fuel_cost": 22.02,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.95,
+      "fuel_cost": 30.84,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 3.49,
+      "fuel_cost": 17.19,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 3.43,
+      "fuel_cost": 31.88,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 4.5,
+      "fuel_cost": 53.54,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.29,
+      "fuel_cost": 15.32,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.44,
+      "fuel_cost": 15.8,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.54,
+      "fuel_cost": 38.63,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 2.51,
+      "fuel_cost": 32.88,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "Anti-Ship Strike",
+      "description": "Maritime interdiction mission against a hostile surface target.",
+      "flight_hours": 4.13,
+      "fuel_cost": 50.44,
+      "weapon_requirements": {
+        "4": {
+          "quantity": 1,
+          "name": "Anti Ship Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 4,
+          "name": "ECM Pod"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 2.62,
+      "fuel_cost": 23.57,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.6,
+      "fuel_cost": 24.35,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Border Patrol",
+      "description": "Quick air-policing sortie with a light air-to-air loadout.",
+      "flight_hours": 1.7,
+      "fuel_cost": 32.17,
+      "weapon_requirements": {
+        "1": {
+          "quantity": 1,
+          "name": "IR Air to Air Missile"
+        },
+        "2": {
+          "quantity": 1,
+          "name": "Radar Air to Air Missile"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 2,
+          "name": "Advanced Radar Module"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Recon Sweep",
+      "description": "ISR sortie to monitor activity around a forward area.",
+      "flight_hours": 4.31,
+      "fuel_cost": 16.49,
+      "weapon_requirements": {},
+      "recommended_equipment": [
+        {
+          "id": 1,
+          "name": "Recon Pod"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 5.21,
+      "fuel_cost": 54.45,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Precision Strike",
+      "description": "Strike mission against a time-sensitive ground target.",
+      "flight_hours": 4.84,
+      "fuel_cost": 45.35,
+      "weapon_requirements": {
+        "3": {
+          "quantity": 2,
+          "name": "Precision Guided Bomb"
+        }
+      },
+      "recommended_equipment": [
+        {
+          "id": 3,
+          "name": "Targeting Pod"
+        }
+      ]
+    }
+  ]
+}

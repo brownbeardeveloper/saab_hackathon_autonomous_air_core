@@ -1,0 +1,9 @@
+gymnasium>=1.2,<2
+numpy>=2,<3
+PyYAML>=6,<7
+torch>=2.6,<3
+stable-baselines3>=2.7,<3
+sb3-contrib>=2.7,<3
+tensorboard>=2.18,<3
+tqdm>=4.66,<5
+rich>=13,<14

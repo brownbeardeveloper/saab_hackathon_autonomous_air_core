@@ -1,0 +1,103 @@
+benchmark:
+  total_timesteps: 150000
+  eval_freq: 30000
+  n_eval_episodes: 6
+  seeds: [42, 123, 999]
+  device: "auto"
+  max_episode_hours: 200
+  verbose: 1
+  profiles_to_run:
+    - balanced_baseline
+    - long_horizon
+    - stable_conservative
+    - explorer_light
+
+final_training:
+  selected_profile: null
+  total_timesteps: 5000000
+  eval_freq: 100000
+  n_eval_episodes: 10
+  seed: 42
+  device: "auto"
+  max_episode_hours: 200
+  verbose: 1
+  save_best_model: true
+  save_replay_metrics: true
+
+common_ppo:
+  policy: "MultiInputPolicy"
+  clip_range: 0.2
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  target_kl: 0.03
+
+profiles:
+  balanced_baseline:
+    description: "Balanced default configuration for screening and long training."
+    learning_rate: 0.0002
+    n_steps: 2048
+    batch_size: 256
+    n_epochs: 10
+    gamma: 0.99
+    gae_lambda: 0.95
+    ent_coef: 0.008
+    hidden_size: 512
+    hidden_layers: 3
+
+  long_horizon:
+    description: "Configuration focused on delayed credit assignment for maintenance and transfer decisions."
+    learning_rate: 0.0002
+    n_steps: 4096
+    batch_size: 512
+    n_epochs: 10
+    gamma: 0.995
+    gae_lambda: 0.97
+    ent_coef: 0.005
+    hidden_size: 512
+    hidden_layers: 4
+
+  stable_conservative:
+    description: "More conservative PPO configuration to reduce instability and policy jumps."
+    learning_rate: 0.00015
+    n_steps: 4096
+    batch_size: 512
+    n_epochs: 10
+    gamma: 0.995
+    gae_lambda: 0.97
+    ent_coef: 0.003
+    hidden_size: 512
+    hidden_layers: 3
+
+  explorer_light:
+    description: "Slightly more exploratory configuration to test whether broader search helps."
+    learning_rate: 0.00025
+    n_steps: 2048
+    batch_size: 256
+    n_epochs: 10
+    gamma: 0.99
+    gae_lambda: 0.95
+    ent_coef: 0.02
+    hidden_size: 640
+    hidden_layers: 3
+
+logging:
+  tensorboard_log_dir: "./logs/"
+  save_dir: "./models/"
+  csv_log_dir: "./metrics/"
+  track_metrics:
+    - episode_reward
+    - episode_length
+    - missions_completed
+    - missions_missed
+    - fuel_used
+    - fuel_left
+    - maintenance_events
+    - transfers
+    - invalid_action_rate
+
+model_selection:
+  metric: "eval_mean_reward"
+  tie_breakers:
+    - missions_completed
+    - missions_missed
+    - invalid_action_rate

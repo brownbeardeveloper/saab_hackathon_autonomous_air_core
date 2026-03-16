@@ -1,0 +1,305 @@
+training: # training version and total missions
+  version: "v1"
+  total_missions: 100
+
+config: # config information
+  skip_mission: false # if false, missions cannot be skipped
+  skip_repair: false # if false, repairs cannot be skipped
+  skip_equipment: false # if false, equipment cannot be skipped
+  skip_full_service: false # if false, full services cannot be skipped
+
+transfer: # transfer duration and fuel cost
+  duration_hours: 1
+  fuel_cost: 10
+
+delivery:
+  bounds: # max values for delivery
+    max_fuel_per_delivery: 100
+    max_weapons_per_delivery: {1: 10, 2: 10, 3: 10, 4: 10}
+    max_spare_parts_per_delivery: 10
+
+dice: # random number generator
+  extra_repair_time: # extra repair time in percentage
+    1: 0
+    2: 0.1
+    3: 0.2
+    4: 0.3
+
+bases: # bases information
+  1:
+    name: "Main Airbase"
+    runways: 1
+    parking_slots: 4
+    maintenance_slots: 2
+
+    storage:
+      fuel:
+        start: 600
+        max: 1000
+
+      weapons:
+        1: {start: 30, max: 60}
+        2: {start: 30, max: 60}
+        3: {start: 30, max: 60}
+        4: {start: 30, max: 60}
+
+      spare_parts:
+        start: 20
+        max: 30
+
+  2:
+    name: "Forward Base"
+    runways: 1
+    parking_slots: 2
+    maintenance_slots: 2
+    
+    storage:
+      fuel:
+        start: 250
+        max: 400
+
+      weapons:
+        1: {start: 15, max: 30}
+        2: {start: 15, max: 30}
+        3: {start: 15, max: 30}
+        4: {start: 15, max: 30}
+
+      spare_parts:
+        start: 12
+        max: 15
+
+
+  3:
+    name: "Fuel Outpost"
+    runways: 1
+    parking_slots: 2
+    maintenance_slots: 0
+
+    storage:
+      fuel:
+        start: 200
+        max: 300
+
+      weapons:
+        1: {start: 10, max: 10}
+        2: {start: 10, max: 10}
+        3: {start: 10, max: 10}
+        4: {start: 10, max: 10}
+
+      spare_parts:
+        start: 10
+        max: 10
+
+aircraft:
+  bounds: # max values for aircraft
+    max_fuel: 100
+    max_flight_hours: 520
+    hardpoint_slots_per_aircraft: {1: 2, 2: 2, 3: 3, 4: 3, 5: 2, 6: 2}
+    allowed_weapons_per_aircraft: {1: [1, 2], 2: [1, 2], 3: [1, 2, 3], 4: [1, 2, 3], 5: [3, 4], 6: [3, 4]}
+    equipment_slots_per_aircraft: {1: 1, 2: 1, 3: 1, 4: 1}
+
+  maintenance: # maintenance information
+    full_service_interval_hours: 500
+    full_service_duration_hours: 120
+    requires_maintenance_slot: true # if true, the aircraft requires a maintenance slot to be serviced
+
+  equipment_types: # equipment types
+    1:
+      name: "Recon Pod"
+      description: "External reconnaissance sensor pod for ISR missions"
+      install_time_hours: 1.2
+      uninstall_time_hours: 0.8
+
+    2:
+      name: "Advanced Radar Module"
+      description: "Extended radar capability for air defense operations"
+      install_time_hours: 3.5
+      uninstall_time_hours: 2.5
+
+    3:
+      name: "Targeting Pod"
+      description: "Laser targeting system for precision strike missions"
+      install_time_hours: 1.5
+      uninstall_time_hours: 1.0
+
+    4:
+      name: "ECM Pod"
+      description: "Electronic countermeasures for survivability and jamming"
+      install_time_hours: 2.0
+      uninstall_time_hours: 1.5
+
+  weapons: # weapons information
+    1:
+      name: "IR Air to Air Missile"
+      description: "Short range infrared guided missile"
+      install_time_hours: 0.4
+      uninstall_time_hours: 0.2
+
+    2:
+      name: "Radar Air to Air Missile"
+      description: "Medium range radar guided missile"
+      install_time_hours: 0.5
+      uninstall_time_hours: 0.3
+
+    3:
+      name: "Precision Guided Bomb"
+      description: "Laser or GPS guided bomb for strike missions"
+      install_time_hours: 0.6
+      uninstall_time_hours: 0.4
+
+    4:
+      name: "Anti Ship Missile"
+      description: "Heavy anti ship strike weapon"
+      install_time_hours: 0.9
+      uninstall_time_hours: 0.7
+
+  fleet: # fleet information
+    1:
+      name: "Viggen 1" # aircraft name
+      total_flight_hours: 100 # total flight hours
+      flight_hours_since_last_mission: 24 # flight hours since last mission
+      fuel_level: 100 # fuel level
+      weapons: {1: null, 2: null, 3: null, 4: null, 5: null, 6: null} # weapons
+      start_airbase: 1 # start airbase
+      equipment: {1: true, 2: false, 3: false, 4: false} # equipment
+      last_mission_hours: 24 # last mission hours
+
+    2:
+      name: "Viggen 2"
+      total_flight_hours: 100
+      flight_hours_since_last_mission: 24
+      fuel_level: 80
+      weapons: {1: null, 2: null, 3: null, 4: null, 5: null, 6: null}
+      start_airbase: 1
+      equipment: {1: true, 2: false, 3: false, 4: false}
+      last_mission_hours: 24
+
+    3:
+      name: "Viggen 3"
+      total_flight_hours: 100
+      flight_hours_since_last_mission: 24
+      fuel_level: 60
+      weapons: {1: null, 2: null, 3: null, 4: null, 5: null, 6: null}
+      start_airbase: 2
+      equipment: {1: true, 2: false, 3: false, 4: false}
+      last_mission_hours: 24
+
+    4:
+      name: "Viggen 4"
+      total_flight_hours: 100
+      flight_hours_since_last_mission: 24
+      fuel_level: 100
+      weapons: {1: null, 2: null, 3: null, 4: null, 5: null, 6: null}
+      start_airbase: 2
+      equipment: {1: true, 2: false, 3: false, 4: false}
+      last_mission_hours: 24
+
+    5:
+      name: "Viggen 5"
+      total_flight_hours: 100
+      flight_hours_since_last_mission: 24
+      fuel_level: 100
+      weapons: {1: null, 2: null, 3: null, 4: null, 5: null, 6: null}
+      start_airbase: 3
+      equipment: {1: true, 2: false, 3: false, 4: false}
+      last_mission_hours: 24
+
+missions:
+  bounds: # max values for mission
+    max_aircraft_per_mission: 4 # max aircraft per mission
+    max_flight_hours_per_mission: 10 # max flight hours per mission
+    max_fuel_cost_per_mission: 80 # max fuel cost per mission
+    max_weapon_required_per_mission: {1: 2, 2: 2, 3: 3, 4: 2} # max weapon required per mission
+  profiles:
+    recon_sweep:
+      name: "Recon Sweep"
+      description: "ISR sortie to monitor activity around a forward area."
+      weight: 0.24
+      flight_hours_range: [2.0, 4.5]
+      fuel_cost_range: [15, 30]
+      weapon_requirements: {}
+      recommended_equipment: [1]
+
+    border_patrol:
+      name: "Border Patrol"
+      description: "Quick air-policing sortie with a light air-to-air loadout."
+      weight: 0.28
+      flight_hours_range: [1.5, 3.5]
+      fuel_cost_range: [18, 35]
+      weapon_requirements: {1: 1, 2: 1}
+      recommended_equipment: [2]
+
+    precision_strike:
+      name: "Precision Strike"
+      description: "Strike mission against a time-sensitive ground target."
+      weight: 0.24
+      flight_hours_range: [2.5, 5.5]
+      fuel_cost_range: [28, 55]
+      weapon_requirements: {3: 2}
+      recommended_equipment: [3]
+
+    anti_ship_strike:
+      name: "Anti-Ship Strike"
+      description: "Maritime interdiction mission against a hostile surface target."
+      weight: 0.14
+      flight_hours_range: [4.0, 7.0]
+      fuel_cost_range: [45, 75]
+      weapon_requirements: {4: 1}
+      recommended_equipment: [4]
+
+repairs: # repairs information
+  extra_repair_time: # extra repair time in percentage
+    low_hours: # probability of extra repair time for low hours
+      flight_hours_since_last_mission_range: [0, 200] # flight hours since last mission range for repair type 1, 2, 3, 4
+      distribution: # distribution of probability of extra repair time for low hours for repair type 1, 2, 3, 4
+        1: 0.80 # probability for random dice of get dice 1 (no repair)
+        2: 0.20 # probability for random dice of get dice 2 (minor repair)
+        3: 0.00 # probability for random dice of get dice 3 (component replacement)
+        4: 0.00 # probability for random dice of get dice 4 (major repair)
+
+    medium_hours:
+      flight_hours_since_last_mission_range: [200, 400]
+      distribution:
+        1: 0.65
+        2: 0.20
+        3: 0.10
+        4: 0.05
+
+    high_hours: 
+      flight_hours_since_last_mission_range: [400, 600]
+      distribution:
+        1: 0.50
+        2: 0.30
+        3: 0.10
+        4: 0.10
+
+  repair_types: # repair types
+    1:
+      name: "No Repair"
+      description: "Aircraft inspection shows no issues."
+      spare_parts_required: 0 # no repair spare parts required
+      duration_hours: 0 # no repair duration hours
+
+    2:
+      name: "Minor Repair"
+      description: "Small faults such as sensor recalibration or minor component fixes."
+      spare_parts_required: 1
+      duration_hours: 4
+
+    3:
+      name: "Component Replacement"
+      description: "Replacement of avionics module, actuator or similar subsystem."
+      spare_parts_required: 2
+      duration_hours: 12
+
+    4:
+      name: "Major Repair"
+      description: "Structural repair or engine subsystem work requiring significant maintenance."
+      spare_parts_required: 4
+      duration_hours: 36
+
+  full_service: # full service information
+    name: "Full Service"
+    description: "Complete overhaul and maintenance of the aircraft."
+    spare_parts_required: 20
+    duration_hours: 72

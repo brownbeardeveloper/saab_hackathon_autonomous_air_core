@@ -8,14 +8,11 @@ Autonomous Air Core is an autonomous airbase management system that uses reinfor
 
 This project is part of the SAAB Hackathon 2026, where participants were challenged to design a smart airbase. Our team had previously developed another component of a separate project that simulates an airbase and its aircraft for educational purposes. This repository focuses on reinforcement learning, where an agent is trained to manage the airbase and coordinate aircraft operations.
 
-I did not have enough time to deploy a fully trained model for the hackathon, so we had to use a "stupid" trained model that could not make optimal decisions. It would sometimes refuel an aircraft even when it already had 100% fuel, which was pretty funny. There may also be a bug in the code that caused the agent to refuel an aircraft even when it already had more than 80% fuel.
+I did not have enough time to deploy a fully trained model for the hackathon, so we had to use a "stupid" trained model that could not make optimal decisions. It would sometimes refuel an aircraft even when it already had 100% fuel, which was pretty funny. We maybe should add penalty when the agent refuels an aircraft that already had more than 80% fuel.
 
 The project does not have a very clean folder structure because it was built quickly, like a real hackathon project.
 
 The hackathon was fun and we learned a lot.
-
-
-// *Björn*
 
 -----
 
@@ -41,13 +38,13 @@ The hackathon was fun and we learned a lot.
 Run a hyperparameter tuning sweep with:
 
 ```bash
-mamba run -n gat-train python sweep_train.py --tuning
+python sweep_train.py --tuning
 ```
 
 Run the final training after tuning with:
 
 ```bash
-mamba run -n gat-train python sweep_train.py --final
+python sweep_train.py --final
 ```
 
 `--final` uses `final_training.selected_profile` from `training_profiles.yml` when it is set. If it is empty or `best`, it reuses the best hyperparameter configuration from the latest tuning summary in `artifacts/`.
